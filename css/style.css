@@ -1,0 +1,171 @@
+/*page formatting */
+
+html, body, .container-fluid{
+    color: #1F1D2A;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 85%;
+}
+body{
+    background: url(../img/Vector_6.svg) no-repeat,
+                url(../img/Vector_5.svg) no-repeat,
+                url(../img/Vector_4.svg) no-repeat,
+                url(../img/Vector_3.svg) no-repeat,
+                url(../img/Vector_2.svg) no-repeat,
+    linear-gradient(292.92deg, #E6E6E4 7.23%, #F0E8E2 97.74%);
+    background-attachment: fixed;
+}
+
+/*display and position stuff (but not all of it(idk))*/
+
+.main-block-text a, .navbar-signin a{
+    display: block;
+}
+.main-block, .main-block-play-link{
+    position: relative;
+}
+
+/*header-nav formatting */
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+#navbarSupportedContent{
+    flex-grow: 0;
+}
+.navbar-signin a{
+    color: #1F1D2A;
+    line-height: 45px;
+}
+.navbar-signin{
+    border: solid 1px #1F1D2A;
+    border-radius: 6px;
+    width: 110px;
+    height: 45px;
+}
+
+/*main formatting*/
+
+.main-block img, .main-block-play-link{
+    border-radius: 50%;
+}
+.main-block-text{
+    flex-direction: column;
+}
+.main-block{
+    align-items: center;
+    display: flex;
+    margin-bottom: 160px;
+}
+.main-block-descriptor{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    background-color: #fff;
+}
+.main-block-text a {
+    background-color: rgba(150, 198, 127, 1);
+    width: fit-content;
+    font-size: 20px;
+    color: #1F1D2A;
+    border-radius: 8px;
+}
+.main-block-play-link {
+    background-color: rgba(148, 153, 183, 1);
+    height: 80px;
+    line-height: 80px;
+    right: 5%;
+    min-width: 80px;
+}
+
+/*trust list formatting*/
+
+.trust-list-block{
+    justify-content: center;
+}
+.trust-list-block img{
+    min-width: 50%;
+}
+
+/*card formatting*/
+
+.card-text, p{
+    color: rgba(155, 148, 142, 1);
+}
+.card{
+    border: none;
+}
+.cards .row{
+    justify-content: space-evenly;
+}
+
+/*paddings margins borders*/
+
+body .container{
+    padding-bottom: 80px;
+}
+header{
+    padding-bottom: 5%;
+}
+.navbar .container-fluid{
+    padding: 0;
+}
+.navbar-nav li, .card-heading h3{
+    padding: 15px;
+}
+.main-block-text p, .main-block-text h1, .main-block-text a, .card-padding, body, .main-block-descriptor{
+    padding: 20px;
+}
+.main-block-text p, .main-block-text h1, .main-block-text a, .card-padding{
+    padding-left: 0px;
+}
+.main-block-text a {
+    padding-left: 20px;
+    margin-top: 32px;
+}
+.trust-list h3, .card-heading, .trust-list-block img {
+    padding-bottom: 25px;
+}
+.card, .main-block-descriptor {
+    border-radius: 20px;
+}
+
+
+/*text formatting*/
+
+.card-heading, .trust-list, .navbar-signin, .main-block-play-link{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    font-weight: 600;
+    font-size: 55px;
+}
+h3 {
+    font-size: 1em;
+}
+.navbar-brand {
+    font-size: 2em;
+}
+.main-block-descriptor p{
+    font-size: 14px;
+}
+.navbar-nav u {
+    text-decoration: underline 2px;
+    text-underline-offset: 6px;
+}
+.card-heading u {
+    text-decoration: underline 6px rgba(150, 198, 127, 1);
+}
+.fa-star{
+    color: rgba(255, 185, 136, 1);
+    width: 24px;
+    height: 24px;
+}
+.fa-play{
+    color: #fff;
+}
